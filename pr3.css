@@ -181,3 +181,79 @@ background-color: #f38181;
    font-size: 24px; 
    font-weight: 700;
 }
+/* section */
+.section {
+    padding: 80px 0;
+}
+.section_header {
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 40px ;
+    text-align: center;
+}
+.section_suptitle {
+    font: 24px;
+    color: #333;
+    font-family: 'Kaushan Script', cursive;
+}
+.section_title {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+}
+.section_title:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 30px auto;
+    background-color: #f38181;
+}
+.section_text {
+ color: #999;
+ font-size: 15px;
+}
+
+/* about */
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+.about-item {
+    width: 30%;
+}
+.about-item:hover .about-image img {
+  opacity: 0.7;  
+}
+.about-image {
+    background: linear-gradient ( to bottom, #f38181, #fce38a);
+    transition: transform .2s linear;
+}
+.about-image img {
+    transition: opacity 0.1s linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
